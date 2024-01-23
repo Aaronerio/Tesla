@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: "Rubik Roman", Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.wrapper {
+    max-width: 1620px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    width: calc(100% - 30px);
+    left: 15px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.header a,
+.footer a,
+.footer li {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header ul {
+    display: flex;
+    column-gap: 49px;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.screen {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+    background-position: center;
+}
+
+.model_3 {
+    background-image: url(../images/Model3.png);
+}
+
+
+.screen p {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #121212;
+}
+
+.screen p a:hover {
+    text-decoration: none;
+}
+
+.screen a {
+    color: #121212;
+}
+
+.screen h2 {
+    font-size: 60px;
+    letter-spacing: 3px;
+    color: #121212;
+    font-weight: bold;
+    text-align: center;
+    margin: 51px 0 30px 0;
+}
+
+.screen .buttons {
+    margin: 65vh 0 0 0;
+}
+
+.buttons a {
+    display: inline-block;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.buttons .left {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    text-align: center;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #3e4145;
+    padding: 19px 19px;
+    text-decoration: none;
+
+}
+
+.buttons .right {
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #121212;
+    text-align: center;
+    width: 280px;
+    border-radius: 5px;
+    background-color: #e7e7e5;
+    padding: 19px 19px;
+    margin-left: 29px;
+    text-decoration: none;
+}
+
+.left:hover {
+    background-color: #e7e7e5;
+    color: #3e4145;
+}
+
+.right:hover {
+    background-color: #3e4145;
+    color: #e7e7e5;
+}
+
+.arrow {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 3px solid #3e4145;
+    border-top-width: 0;
+    border-left-width: 0;
+    transform: rotate(45deg);
+    margin-top: 50px;
+}
+
+.model_y {
+    background-image: url(../images/ModelY.png);
+}
+
+.model_s {
+    background-image: url(../images/ModelS.png);
+}
+
+.model_x {
+    background-image: url(../images/ModelX.png);
+}
+
+.solar_panels {
+    background-image: url(../images/SolarPanels.png);
+}
+
+.solar_roof {
+    background-image: url(../images/SolarRoof.png);
+}
+
+.accessories {
+    background-image: url(../images/Accessories.png);
+}
+
+.footer {
+    position: relative;
+}
+
+.footer ul {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 30px);
+    bottom: 30px;
+}
+
+.footer li {
+    margin-right: 15px;
+    margin-left: 15px;
+}
